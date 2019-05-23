@@ -1,0 +1,90 @@
+body{
+background-image: url("../img/bttf-delorean2.jpg");
+background-repeat: no-repeat;
+background-position: center top
+background-size:100%;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style the header */
+header {
+	
+	opacity: 0.8;
+	padding: 30px;
+	text-align: center;
+	font-size: 35px;
+	color: #000;
+	width: 75%;
+	margin: auto;background-color: rgb(255,255,255);
+	border-radius: 50px;
+}
+
+/* Container for flexboxes */
+section {
+  display: -webkit-flex;
+  display: flex;
+  width: 75%;
+  height: 90%;
+  margin: auto;
+
+}
+
+/* Style the navigation menu */
+nav {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  padding: 20px;
+  width: 25%;
+  height: 100%;
+  margin: auto;
+  background-color: rgb(255,255,255);
+  opacity: 0.8;
+  border-radius: 50px;
+}
+
+video{
+	opacity: 100%;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Style the content */
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  padding: 10px;
+  color: #fff;
+  border-radius: 50px;
+  background-color: rgb(0,0,0);
+  opacity: 0.8;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: black;
+  width: 75%;
+  margin: auto;background-color: rgb(255,255,255);
+  opacity: 0.8;
+  border-radius: 50px;
+}
+
+/* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}

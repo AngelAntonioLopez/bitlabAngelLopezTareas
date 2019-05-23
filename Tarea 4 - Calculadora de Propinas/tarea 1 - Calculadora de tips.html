@@ -1,0 +1,66 @@
+<!DOCTYPE HTML>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculadora de Propinas</title>
+	<meta charset="utf-8"/>
+	<link rel="stylesheet" type="text/css" href="vendor/src/style.css">
+</head>
+<body class="body">
+	
+		<div class="form">
+			
+			<!--por que div y no table?... emm... pues las tabla no se usan para maquetado,
+			 solo para mostrar datos, si se usa una tabla para maquetar no esta mal del todo
+			 por que se muestra lo que se quiere pero no es correcto-->
+			<div id="header">
+						Calculadora de Propinas.
+				</div>
+				<div class=table>
+				
+					<div class=tr>
+						<div class="td">
+							Total A Cancelar:					
+						</div>
+						<div class="td">
+							<input type="text" name="total" id="total" placeholder="$0.00" required="true"
+							>
+						</div>
+					</div>
+					<div class=tr>
+						<div class="td">
+							Porcentaje de Propina:					
+						</div>
+						<div class="td">
+							<select id="porcentaje" name="porcentaje">
+								<option value="10">10%</option>
+								<option value="20">20%</option>
+								<option value="30">30%</option>
+								<option value="40">40%</option>
+								<option value="50">50%</option>
+							</select>
+						</div>
+					</div>
+					<div class=tr>
+						<div class="td">
+							Cantidad de meseros a repartir:					
+						</div>
+						<div class="td">
+							<input type="text" name="meseros" id="meseros" placeholder="0" required="true">
+						</div>
+					</div>
+				</div>
+				<div style="text-align: center; width: 100% ">
+						<button class="btn" id="btn" onclick="calcular()">Calcular</button>
+						<button class="btn" id="clean" onclick="limpiar()">Limpiar</button>
+				</div>
+				<div class="table">
+					<div class="tr">
+						<div id="respuesta">Su Respuesta</div>
+					</div>
+				</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="vendor/src/script.js"></script>
+</body>
+</html>

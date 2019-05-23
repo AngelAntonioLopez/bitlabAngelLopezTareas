@@ -1,0 +1,53 @@
+body{
+	background: black;
+}
+
+.slide{
+width: 100%;
+height: 25%;
+}
+
+.contenedordetitulo{
+  background-color: white;
+  color: black;
+  text-align: center;
+  align-content: center;
+}
+
+.center{
+	text-align: center;
+}
+
+.titulo{
+	background-color: white;
+	color: black;
+	font-size: 20px;
+	font-weight: bold;
+	margin:1% 0px;
+}
+
+.blanco{
+	color: white
+}
+.img{
+	margin-top:10px;
+	margin: auto;
+	width: 100%;
+}
+
+.list-group-item.active {
+
+    z-index: 2;
+    color: #fff;
+    background-color: #000;
+    border-color: #000;
+
+}
+
+.audio{
+	width: 100%;
+	background-color: black;
+	color: white;
+	margin: 0px;
+	padding: 0px;
+}

@@ -1,0 +1,22 @@
+body{
+  background-color: blue;
+}
+button{
+  background-color: blue;
+  color: white;
+  font-family: fantasy;
+}
+h1{
+  font-family: fantasy;
+}
+
+.contenedor{
+  margin: auto;
+  border-radius: 25px;
+  background-color: white;
+  padding: 30px;
+  width: 75%;
+  text-align:center;
+  align-content: center;
+  font-family: fantasy;
+}

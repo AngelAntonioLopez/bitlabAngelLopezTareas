@@ -1,0 +1,26 @@
+#logo{
+	width: 200px;
+}
+
+.campo{
+	font-family: fantasy;
+	border-radius: 25px;
+	background-color:#6bb7d4;
+	text-align: center;
+	color: #fff;
+	width:30%;
+	height: 20px;
+	display: block;
+	margin: auto;
+}
+
+.contenedor{
+	font-family: fantasy;
+	border-radius: 50px;
+	margin: auto; 
+	width: 70%; 
+	padding: 20px; 
+	text-align: center;
+	background-image: linear-gradient(to bottom right,#030403,#6b024e,#6bb7d4,#6b024e,#030403);
+
+}

@@ -1,0 +1,46 @@
+.body{
+	background-image: linear-gradient(to bottom right, #32dbc6, #309286);
+}
+
+.pagina{
+	width: 70%;
+	margin: auto;
+	padding: 30px;
+	background-color: #b4e9e2;
+	border-radius: 50px;
+}
+
+h1{
+	font-family: fantasy;
+	font-size: 30px;
+	text-decoration: blink;
+	color:#157b6d;
+	text-align: center;
+	margin: auto;
+}
+
+H2{
+	font-family: fantasy;
+	font-size: 20px;
+	text-decoration: blink;
+	color:#157b6d;
+}
+
+strong{
+	color:#157b6d;
+	font-size: 15px;
+	font-family:sans-serif; 
+}
+
+pre{
+	color:#159789;
+	font-family:sans-serif; 
+}
+
+#foto{
+	border-radius: 25px;
+	float: right; 
+	margin: 0px 0px 15px 15px;
+	border-right:solid #309286 4px; 
+	border-bottom: solid #309286 4px;
+}

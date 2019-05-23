@@ -1,0 +1,84 @@
+
+*{
+	color: white;
+}
+
+header{
+	background-color: #CF0B76;
+}
+
+body{
+	background-color: black;
+}
+
+.bg-light {
+    background-color: #CF0B76 !important;
+}
+.navbar{
+	background-color: #CF0B76;
+}
+
+
+.imagen{
+	border-radius: 25px; 
+	object-fit: cover;
+	object-position: 100% 0;
+}
+
+	
+#1{
+	width: 275px; height: 300px;
+}
+
+.row{
+	margin-top:25px;
+}
+
+.subtitulo{
+	background-color: #CF0B76; 
+	font-size:40px; 
+	font-family: fantasy; 
+	text-align: center; 
+	font-weight: bold;  
+}
+
+.cuadrado{
+width: 20px;
+height: 20px;
+}
+
+.card{
+	background-color: #000;                                                      
+	border:solid 1px #fff;
+	border-radius: 25px;
+}
+
+.btn-primary{
+	background-color: #CF0B76;
+	border-color: #CF0B90;
+}
+
+.imgcard{
+	width: 100px !important;
+	height: 100px !important;
+	border-radius: 25px;
+	text-align: center;
+	margin: auto;	
+}
+
+.card{
+	margin-top: 10px !important;}
+
+.map-container-2{
+	overflow:hidden;
+	padding-bottom:56.25%;
+	position:relative;
+	height:0;
+}
+.map-container-2 iframe{
+	left:0;
+	top:0;
+	height:100%;
+	width:100%;
+	position:absolute;
+}
